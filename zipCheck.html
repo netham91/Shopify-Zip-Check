@@ -3,6 +3,6 @@
         <input id="zip" name="zipcode" placeholder="Enter your PIN Code to check COD Service" type="text"> 
         <button id="checkPin">Check Pincode</button><br/>
 
-        <p id="statusResult"></p>{{ 'COD_pin_validation.js' | asset_url |
-        script_tag }}
+        <p id="statusResult"></p>
+        {{ 'COD_pin_validation.js' | asset_url | script_tag }}
     </div>
