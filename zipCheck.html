@@ -1,8 +1,11 @@
 <div class="row">
-        <p style="font-weight: bold">Enter yourr</p>
-        <input id="zip" name="zipcode" placeholder="Enter your PIN Code to check COD Service" type="text"> 
-        <button id="checkPin">Check Pincode</button><br/>
+        <p style="font-weight: bold;margin-left:0;text-align:left;">Enter your PIN code to check Cash On Delivery</p>
+        <input id="zip" name="zipCode" placeholder="Enter your PIN Code to check COD Service" type="text"> 
+        <button type="button" id="checkPin">Check Pincode</button><br>
 
-        <p id="statusResult"></p>
-        {{ 'COD_pin_validation.js' | asset_url | script_tag }}
+        <p id="statusResult1" style="font-weight: bold;margin-left:0;text-align:left;color:green;"></p>
+         <p id="statusResult2" style="font-weight: bold;margin-left:0;text-align:left;color:red;"></p>
+         {{ 'zipCheck.js' | asset_url | script_tag }}
+
+
     </div>
