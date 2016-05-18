@@ -1,6 +1,6 @@
-Shopify-Zip-Check - https://github.com/netham91/Shopify-Zip-Check
+Shopify-Zip-Check
 =================
-
+https://github.com/netham91/Shopify-Zip-Check
 
 # 3 steps and it's done :)
 
