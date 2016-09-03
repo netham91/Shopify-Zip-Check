@@ -17,3 +17,4 @@ Need help? Raise an issue, so that the answers remain public and I don't have to
 
 Websites using the script:
 https://www.teez.in/
+https://orniza.com
